@@ -24,7 +24,9 @@
   },
   "devDependencies": {
     "prettier": "^2.0.5",
-    "prettier-plugin-package": "^1.0.0"
+    "prettier-plugin-package": "^1.0.0",
+    "stylelint": "^13.6.1",
+    "stylelint-config-sass-guidelines": "^7.0.0"
   },
   "browserslist": {
     "production": [
@@ -48,9 +50,13 @@
   },
   "lint-staged": {
     "*.{js,json,css,md}": "prettier --write",
+    "src/**/*.scss": "stylelint --fix",
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write"
   },
   "prettier": {
     "singleQuote": true
+  },
+  "stylelint": {
+    "extends": "stylelint-config-sass-guidelines"
   }
 }
