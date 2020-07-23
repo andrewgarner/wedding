@@ -10,6 +10,14 @@
             "StackName": "amplify-wedding-production-141535",
             "StackId": "arn:aws:cloudformation:eu-west-2:228354360597:stack/amplify-wedding-production-141535/996b4570-cce6-11ea-bdcd-06b0998bdefc",
             "AmplifyAppId": "d19daiauve279i"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d19daiauve279i",
+                    "type": "cicd"
+                }
+            }
         }
     }
 }
