@@ -52,6 +52,10 @@
   },
   "lint-staged": {
     "*.{js,json,css,md}": "prettier --write",
+    "*.{tf}": [
+      "terraform fmt -recursive",
+      "terraform validate"
+    ],
     "src/**/*.scss": "stylelint --fix",
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write"
   },
