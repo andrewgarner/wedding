@@ -1,3 +1,14 @@
+terraform {
+  backend "remote" {
+    hostname     = "app.terraform.io"
+    organization = "garner-flaherty-wedding"
+
+    workspaces {
+      name = "wedding"
+    }
+  }
+}
+
 provider "aws" {
   region = "eu-west-2"
 }
