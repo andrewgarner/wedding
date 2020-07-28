@@ -61,7 +61,8 @@
   },
   "prettier": {
     "semi": false,
-    "singleQuote": true
+    "singleQuote": true,
+    "trailingComma": "all"
   },
   "stylelint": {
     "extends": "stylelint-config-sass-guidelines"
