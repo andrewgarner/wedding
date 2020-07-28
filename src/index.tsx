@@ -1,9 +1,8 @@
-import Amplify from 'aws-amplify';
-import AWSExports from 'aws-amplify';
+import { default as Amplify, default as AWSExports } from 'aws-amplify';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import './index.css';
 import * as serviceWorker from './serviceWorker';
 
 Amplify.configure(AWSExports);
