@@ -1,13 +1,28 @@
 import React from 'react'
-import './App.scss'
+import styled from 'styled-components'
+
+const Container = styled.div`
+  text-align: center;
+`
+
+const Header = styled.header`
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-size: calc(20px + 2vmin);
+`
 
 function App() {
   return (
-    <div className="app">
-      <header className="app-header">
+    <Container>
+      <Header>
         <p>Hannah & Andrew are getting married on the 9th October 2021.</p>
-      </header>
-    </div>
+      </Header>
+    </Container>
   )
 }
 
