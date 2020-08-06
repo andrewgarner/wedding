@@ -44,7 +44,10 @@
     "prettier-plugin-package": "^1.0.0",
     "stylelint": "^13.6.1",
     "stylelint-config-idiomatic-order": "^8.1.0",
-    "stylelint-config-recommended": "^3.0.0"
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-media-use-custom-media": "^2.0.0",
+    "stylelint-use-logical": "^1.1.0",
+    "stylelint-use-nesting": "^3.0.0"
   },
   "browserslist": {
     "production": [
@@ -84,6 +87,16 @@
     "extends": [
       "stylelint-config-idiomatic-order",
       "stylelint-config-recommended"
-    ]
+    ],
+    "plugins": [
+      "stylelint-media-use-custom-media",
+      "stylelint-use-nesting",
+      "stylelint-use-logical"
+    ],
+    "rules": {
+      "csstools/media-use-custom-media": "always",
+      "csstools/use-logical": "always",
+      "csstools/use-nesting": "always"
+    }
   }
 }
