@@ -13,7 +13,7 @@ const Header = styled.header`
   justify-content: center;
   background-color: var(--color-background);
   color: var(--color-text);
-  font-size: calc(20px + 2vmin);
+  font-size: var(--type-large);
 `
 
 function App() {

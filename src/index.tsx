@@ -31,11 +31,22 @@ const GlobalStyle = createGlobalStyle`
     'Droid Sans',
     'Helvetica Neue',
     sans-serif;
+  --type-base: calc(1.6em + 0.5vw);
+  --type-xxx-small: 55%;
+  --type-xx-small: 65%;
+  --type-x-small: 75%;
+  --type-small: 85%;
+  --type-medium: 100%;
+  --type-large: 125%;
+  --type-x-large: 150%;
+  --type-xx-large: 200%;
+  --type-xxx-large: 300%
 }
 
 body {
   margin: 0;
   font-family: var(--font-sans);
+  font-size:var(--type-base);
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
