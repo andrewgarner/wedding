@@ -12,11 +12,14 @@ const GlobalStyle = createGlobalStyle`
   --color-green: #717b70;
   --color-text: var(--color-white);
   --color-background: var(--color-green);
-}
-
-body {
-  margin: 0;
-  font-family:
+  --font-mono:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
+    monospace;
+  --font-sans:
     -apple-system,
     BlinkMacSystemFont,
     'Segoe UI',
@@ -28,18 +31,17 @@ body {
     'Droid Sans',
     'Helvetica Neue',
     sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
 
 code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+  font-family: var(--font-mono)
 }
 `
 
