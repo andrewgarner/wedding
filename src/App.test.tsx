@@ -4,6 +4,8 @@ import App from './App'
 
 test('renders learn react link', () => {
   const { getByText } = render(<App />)
-  const linkElement = getByText(/learn react/i)
-  expect(linkElement).toBeInTheDocument()
+  const paragraphElement = getByText(
+    /Hannah & Andrew are getting married on the 9th October 2021./i,
+  )
+  expect(paragraphElement).toBeInTheDocument()
 })
