@@ -43,7 +43,7 @@
     "prettier": "^2.1.1",
     "prettier-plugin-package": "^1.0.0",
     "react-is": "^16.13.1",
-    "stylelint": "^13.6.1",
+    "stylelint": "^13.7.1",
     "stylelint-config-idiomatic-order": "^8.1.0",
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-media-use-custom-media": "^2.0.0",
