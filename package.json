@@ -3,22 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "description": "Andrew & Hannah are getting married at Nancarrow Farm",
-  "license": "MIT ",
+  "homepage": "https://github.com/andrewgarner/wedding#readme",
+  "bugs": {
+    "url": "https://github.com/andrewgarner/wedding/issues"
+  },
   "repository": "github:andrewgarner/wedding",
+  "license": "MIT",
   "author": {
     "name": "Andrew Garner",
     "email": "andrew@andrewgarner.com",
     "url": "https://www.andrewgarner.com/"
-  },
-  "homepage": "https://github.com/andrewgarner/wedding#readme",
-  "bugs": {
-    "url": "https://github.com/andrewgarner/wedding/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "micromatch": "^4.0.2",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "prettier-plugin-packagejson": "^2.2.10"
   }
 }
