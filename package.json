@@ -16,5 +16,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "micromatch": "^4.0.2",
+    "prettier": "^2.2.1"
   }
 }
