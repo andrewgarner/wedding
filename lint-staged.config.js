@@ -19,6 +19,8 @@ module.exports = (allStagedFiles) => {
     { dot: true }
   );
 
+  const terraformFiles = micromatch(allStagedFiles, ["{**/*,*}.tf"], {});
+
   const linters = [];
 
   if (eslintFiles.length > 0) {
@@ -27,6 +29,13 @@ module.exports = (allStagedFiles) => {
 
   if (prettierFiles.length > 0) {
     linters.push(`prettier --write ${prettierFiles.map(addQuotes).join(" ")}`);
+  }
+
+  if (terraformFiles.length > 0) {
+    linters.push(
+      `terraform fmt ${terraformFiles.map(addQuotes).join(" ")}`,
+      `terraform validate terraform`
+    );
   }
 
   return linters;
