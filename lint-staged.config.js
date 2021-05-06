@@ -9,7 +9,7 @@ const prettierSupportedExtensions = prettier
   .flat();
 
 module.exports = (allStagedFiles) => {
-  const eslintFiles = micromatch(allStagedFiles, ["{**/*,*}.{js,jsx}"], {
+  const eslintFiles = micromatch(allStagedFiles, ["{**/*,*}.{js,jsx,ts,tsx}"], {
     dot: true,
   });
 
