@@ -3,13 +3,13 @@ module.exports = {
     browser: true,
     es2021: true,
     node: true,
+    webextensions: true,
   },
   extends: [
     "standard",
     "plugin:jest/recommended",
     "plugin:jest-formatting/recommended",
     "prettier",
-    "prettier/react",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -21,6 +21,8 @@ module.exports = {
   },
   plugins: ["@typescript-eslint"],
   rules: {
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "no-use-before-define": "off",
     "react/react-in-jsx-scope": "off",
   },
 };
