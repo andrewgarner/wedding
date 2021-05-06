@@ -16,7 +16,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "build-storybook": "build-storybook",
     "start": "next start",
     "start-storybook": "start-storybook -p 6006",
