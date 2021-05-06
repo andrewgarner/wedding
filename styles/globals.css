@@ -2,3 +2,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Cormorant Garamond";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+      url("/fonts/cormorant-garamond-v10-latin-regular.woff2") format("woff2"),
+      url("/fonts/cormorant-garamond-v10-latin-regular.woff") format("woff");
+  }
+
+  @keyframes load {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-white subpixel-antialiased bg-green;
+  }
+
+  a {
+    @apply underline;
+    color: currentColor;
+  }
+
+  nav a {
+    @apply no-underline;
+  }
+
+  nav a:hover {
+    @apply underline;
+  }
+}

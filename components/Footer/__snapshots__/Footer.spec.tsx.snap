@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The footer component renders correctly 1`] = `
+<div>
+  <footer
+    class="mb-12"
+  >
+    <p
+      class="mx-auto max-w-prose font-sans text-sm lg:text-base font-normal"
+    >
+      Andrew and Hannah — 
+      <time
+        datetime="2021-10-09"
+      >
+        9/10/21
+      </time>
+       — Nancarrow Farm
+    </p>
+  </footer>
+</div>
+`;

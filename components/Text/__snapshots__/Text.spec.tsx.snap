@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The text component renders large header typography correctly 1`] = `
+<div>
+  <p
+    class="space-y-32 leading-loose  first-of-type:mt-8 mt-32 mb-4 mx-auto font-sans text-4xl lg:text-6xl xl:text-7xl font-normal uppercase"
+  >
+    The quick brown fox jumps over the lazy dog
+  </p>
+</div>
+`;
+
+exports[`The text component renders medium header typography correctly 1`] = `
+<div>
+  <p
+    class="space-y-32 leading-loose  first-of-type:mt-8 mt-32 mb-4 mx-auto font-sans text-3xl lg:text-4xl font-normal uppercase"
+  >
+    The quick brown fox jumps over the lazy dog
+  </p>
+</div>
+`;
+
+exports[`The text component renders small header typography correctly 1`] = `
+<div>
+  <p
+    class="space-y-32 leading-loose mt-16 mb-4 mx-auto font-sans text-2xl lg:text-3xl font-normal uppercase"
+  >
+    The quick brown fox jumps over the lazy dog
+  </p>
+</div>
+`;
+
+exports[`The text component renders small typography correctly 1`] = `
+<div>
+  <p
+    class="mx-auto max-w-prose font-sans text-sm lg:text-base font-normal"
+  >
+    The quick brown fox jumps over the lazy dog
+  </p>
+</div>
+`;
+
+exports[`The text component renders the default correctly 1`] = `
+<div>
+  <p
+    class="space-y leading-loose max-w-prose mx-auto font-sans text-lg lg:text-xl font-normal"
+  >
+    The quick brown fox jumps over the lazy dog
+  </p>
+</div>
+`;
+
+exports[`The text component renders the specified tag correctly 1`] = `
+<div>
+  <li
+    class="space-y leading-loose max-w-prose mx-auto font-sans text-lg lg:text-xl font-normal"
+  >
+    The quick brown fox jumps over the lazy dog
+  </li>
+</div>
+`;
+
+exports[`The text component renders x-large header typography correctly 1`] = `
+<div>
+  <p
+    class="space-y-32 leading-loose  first-of-type:mt-0 mt-32 mb-4 mx-auto font-sans text-3xl lg:text-4xl xl:text-5xl font-normal uppercase"
+  >
+    The quick brown fox jumps over the lazy dog
+  </p>
+</div>
+`;

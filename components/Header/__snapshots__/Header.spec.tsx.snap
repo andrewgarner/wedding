@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The header component renders correctly 1`] = `
+<div>
+  <header
+    class="visible"
+  >
+    <h1
+      class="space-y-32 leading-loose  first-of-type:mt-0 mt-32 mb-4 mx-auto font-sans text-3xl lg:text-4xl xl:text-5xl font-normal uppercase"
+    >
+      <a
+        href="/"
+      >
+        Andrew and Hannah
+      </a>
+    </h1>
+  </header>
+</div>
+`;
