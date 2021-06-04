@@ -552,6 +552,13 @@ const TravelAndStay = () => (
           Padstow
         </Text>
         <Text tag="li">
+          <Link href="https://www.theloftrestaurantandterrace.co.uk/" passHref>
+            <a>The Loft Restaurant & Terrace</a>
+          </Link>
+          <br />
+          St Ives
+        </Text>
+        <Text tag="li">
           <Link href="https://www.paul-ainsworth.co.uk/the-mariners/" passHref>
             <a>The Mariners</a>
           </Link>
@@ -585,6 +592,13 @@ const TravelAndStay = () => (
           </Link>
           <br />
           Lelant, Hayle
+        </Text>
+        <Text tag="li">
+          <Link href="https://www.onefishstreet.co.uk/" passHref>
+            <a>One Fish Street</a>
+          </Link>
+          <br />
+          St Ives
         </Text>
         <Text tag="li">
           <Link href="https://outlaws.co.uk/restaurants/fish-kitchen/" passHref>
@@ -672,6 +686,20 @@ const TravelAndStay = () => (
           </Link>
           <br />
           Boscastle
+        </Text>
+        <Text tag="li">
+          <Link href="http://rumandcrabshack.com/" passHref>
+            <a>The Rum & Crab Shack</a>
+          </Link>
+          <br />
+          St Ives
+        </Text>
+        <Text tag="li">
+          <Link href="https://www.stivesliquor.co/searoom/" passHref>
+            <a>The Searoom Bar & Restaurant</a>
+          </Link>
+          <br />
+          St Ives
         </Text>
         <Text tag="li">
           <Link href="https://www.schoonerscornwall.com/" passHref>
@@ -771,6 +799,16 @@ const TravelAndStay = () => (
 
       <ul className="grid gap-4 grid-flow-row grid-cols-1 justify-items-center mt-8 sm:gap-8 sm:grid-cols-2 md:gap-16 md:grid-cols-3">
         <Text tag="li">
+          <Link
+            href="https://www.uniquehomestays.com/self-catering/uk/cornwall/st-ives/alba-beach-house/"
+            passHref
+          >
+            <a>Alba Beach House</a>
+          </Link>
+          <br />
+          St Ives
+        </Text>
+        <Text tag="li">
           <Link href="https://www.chapelhousepz.co.uk/" passHref>
             <a>Chapel House</a>
           </Link>
@@ -783,6 +821,20 @@ const TravelAndStay = () => (
           </Link>
           <br />
           Lewannick
+        </Text>
+        <Text tag="li">
+          <Link href="https://www.harbourviewonline.co.uk/" passHref>
+            <a>Harbour View House</a>
+          </Link>
+          <br />
+          St Ives
+        </Text>
+        <Text tag="li">
+          <Link href="https://www.headlandhousehotel.co.uk/" passHref>
+            <a>Headland House</a>
+          </Link>
+          <br />
+          St Ives
         </Text>
         <Text tag="li">
           <Link href="https://tresanton.com/home/" passHref>
