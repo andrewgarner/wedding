@@ -657,6 +657,13 @@ const TravelAndStay = () => (
           Fowey
         </Text>
         <Text tag="li">
+          <Link href="https://pipelinebrewing.co.uk/" passHref>
+            <a>Pipeline Brewing Co.</a>
+          </Link>
+          <br />
+          St Agnes
+        </Text>
+        <Text tag="li">
           <Link href="https://www.instagram.com/pollen_truro/" passHref>
             <a>Pollen</a>
           </Link>
