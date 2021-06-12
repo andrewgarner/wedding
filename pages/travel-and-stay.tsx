@@ -678,6 +678,13 @@ const TravelAndStay = () => (
           Padstow
         </Text>
         <Text tag="li">
+          <Link href="https://redelephantbeercellar.co.uk/" passHref>
+            <a>Red Elephant Beer Cellar</a>
+          </Link>
+          <br />
+          Truro
+        </Text>
+        <Text tag="li">
           <Link
             href="https://www.rickstein.com/eat-with-us/the-seafood-restaurant/"
             passHref
