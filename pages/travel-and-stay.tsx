@@ -844,6 +844,13 @@ const TravelAndStay = () => (
           Lewannick
         </Text>
         <Text tag="li">
+          <Link href="https://www.foweyhallhotel.co.uk/" passHref>
+            <a>Fowey Hall Hotel</a>
+          </Link>
+          <br />
+          Fowey
+        </Text>
+        <Text tag="li">
           <Link href="https://www.harbourviewonline.co.uk/" passHref>
             <a>Harbour View House</a>
           </Link>
