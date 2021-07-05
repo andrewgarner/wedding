@@ -796,6 +796,13 @@ const TravelAndStay = () => (
           Padstow
         </Text>
         <Text tag="li">
+          <Link href="https://www.uglybutterfly.co.uk/" passHref>
+            <a>Ugly Butterfly</a>
+          </Link>
+          <br />
+          St Ives
+        </Text>
+        <Text tag="li">
           <Link
             href="https://www.origincoffee.co.uk/pages/origin-coffee-penryn/"
             passHref
