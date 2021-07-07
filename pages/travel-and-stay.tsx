@@ -566,6 +566,13 @@ const TravelAndStay = () => (
           St Ives
         </Text>
         <Text tag="li">
+          <Link href="https://www.lovetts-newlyn.co.uk/" passHref>
+            <a>Lovetts Bar & Shop</a>
+          </Link>
+          <br />
+          Newlyn
+        </Text>
+        <Text tag="li">
           <Link href="https://www.paul-ainsworth.co.uk/the-mariners/" passHref>
             <a>The Mariners</a>
           </Link>
