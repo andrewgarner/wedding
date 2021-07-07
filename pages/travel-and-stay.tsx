@@ -573,6 +573,13 @@ const TravelAndStay = () => (
           Newlyn
         </Text>
         <Text tag="li">
+          <Link href="http://www.mackerelskycafe.co.uk/" passHref>
+            <a>Mackerel Sky Seafood Bar</a>
+          </Link>
+          <br />
+          Newlyn
+        </Text>
+        <Text tag="li">
           <Link href="https://www.paul-ainsworth.co.uk/the-mariners/" passHref>
             <a>The Mariners</a>
           </Link>
