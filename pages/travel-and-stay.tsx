@@ -775,6 +775,13 @@ const TravelAndStay = () => (
           Churchtown
         </Text>
         <Text tag="li">
+          <Link href="http://www.starandgarterfalmouth.co.uk/" passHref>
+            <a>Star & Garter</a>
+          </Link>
+          <br />
+          Falmouth
+        </Text>
+        <Text tag="li">
           <Link href="https://www.surfsidepolzeath.com/feast/" passHref>
             <a>Surfside Polzeath</a>
           </Link>
