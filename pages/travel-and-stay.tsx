@@ -847,6 +847,16 @@ const TravelAndStay = () => (
           <br />
           St Ives
         </Text>
+        <Text tag="li">
+          <Link
+            href="https://www.instagram.com/theyellowcanarycafestives/"
+            passHref
+          >
+            <a>The Yellow Canary Café</a>
+          </Link>
+          <br />
+          St Ives
+        </Text>
       </ul>
 
       <Text tag="h3" typography={Typography.HeaderSmall}>
