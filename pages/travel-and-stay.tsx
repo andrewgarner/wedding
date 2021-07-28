@@ -216,6 +216,11 @@ const TravelAndStay = () => (
           01872 540596 (3 miles)
         </Text>
         <Text tag="li">
+          <Link href="https://www.sykescottages.co.uk/" passHref>
+            <a>Sykes Holiday Cottages</a>
+          </Link>
+        </Text>
+        <Text tag="li">
           <Link href="https://www.tresillianhouse.co.uk" passHref>
             <a>Tresillian House</a>
           </Link>
