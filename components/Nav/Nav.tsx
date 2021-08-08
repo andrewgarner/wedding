@@ -25,11 +25,6 @@ const Nav: VoidFunctionComponent = () => {
             <a>Travel & stay</a>
           </Link>
         </Text>
-        <Text tag="li" typography={Typography.Small}>
-          <Link href="/rsvp" passHref>
-            <a>RSVP</a>
-          </Link>
-        </Text>
       </ul>
     </nav>
   );

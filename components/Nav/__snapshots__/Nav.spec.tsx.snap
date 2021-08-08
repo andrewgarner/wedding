@@ -35,15 +35,6 @@ exports[`The navigation component renders correctly 1`] = `
           Travel & stay
         </a>
       </li>
-      <li
-        class="mx-auto max-w-prose font-sans text-sm lg:text-base font-normal"
-      >
-        <a
-          href="/rsvp"
-        >
-          RSVP
-        </a>
-      </li>
     </ul>
   </nav>
 </div>

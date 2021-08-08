@@ -88,8 +88,7 @@ const TravelAndStay = () => (
 
       <Text>
         But if you’d really like to buy us a present, we hope you won’t mind
-        bearing with us a little longer. If you leave your email address when
-        you RSVP, we’ll email you in the next few weeks when it’s ready.
+        bearing with us a little longer.
       </Text>
     </Page>
   </>
