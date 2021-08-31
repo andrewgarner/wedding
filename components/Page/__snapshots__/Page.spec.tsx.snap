@@ -51,6 +51,15 @@ exports[`renders correctly 1`] = `
             Travel & stay
           </a>
         </li>
+        <li
+          class="mx-auto max-w-prose font-sans text-sm lg:text-base font-normal"
+        >
+          <a
+            href="https://prezola.com/wishlists/10241516"
+          >
+            Gift list
+          </a>
+        </li>
       </ul>
     </nav>
     <main

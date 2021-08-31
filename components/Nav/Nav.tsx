@@ -25,6 +25,11 @@ const Nav: VoidFunctionComponent = () => {
             <a>Travel & stay</a>
           </Link>
         </Text>
+        <Text tag="li" typography={Typography.Small}>
+          <Link href="https://prezola.com/wishlists/10241516" passHref>
+            <a>Gift list</a>
+          </Link>
+        </Text>
       </ul>
     </nav>
   );

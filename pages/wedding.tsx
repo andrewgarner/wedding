@@ -75,21 +75,6 @@ const TravelAndStay = () => (
         way, we’d recommend checking the cancellation or rebooking policies for
         any accommodation you book.
       </Text>
-
-      <Text tag="h2" typography={Typography.HeaderMedium}>
-        Gift list
-      </Text>
-
-      <Text>
-        Many of you have asked us what we’d like as a wedding present. Obviously
-        the gift of your presence at our wedding is enough and we don’t expect
-        anything more.
-      </Text>
-
-      <Text>
-        But if you’d really like to buy us a present, we hope you won’t mind
-        bearing with us a little longer.
-      </Text>
     </Page>
   </>
 );
