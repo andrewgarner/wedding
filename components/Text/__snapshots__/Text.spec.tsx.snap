@@ -43,7 +43,7 @@ exports[`The text component renders small typography correctly 1`] = `
 exports[`The text component renders the default correctly 1`] = `
 <div>
   <p
-    class="space-y leading-loose max-w-prose mx-auto font-sans text-lg lg:text-xl font-normal"
+    class="space-y leading-loose max-w-prose mx-auto mb-4 font-sans text-lg lg:text-xl font-normal"
   >
     The quick brown fox jumps over the lazy dog
   </p>
@@ -53,7 +53,7 @@ exports[`The text component renders the default correctly 1`] = `
 exports[`The text component renders the specified tag correctly 1`] = `
 <div>
   <li
-    class="space-y leading-loose max-w-prose mx-auto font-sans text-lg lg:text-xl font-normal"
+    class="space-y leading-loose max-w-prose mx-auto mb-4 font-sans text-lg lg:text-xl font-normal"
   >
     The quick brown fox jumps over the lazy dog
   </li>

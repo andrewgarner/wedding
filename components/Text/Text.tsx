@@ -19,7 +19,7 @@ const typographyClassNames: Record<Typography, string> = {
   [Typography.HeaderSmall]:
     "space-y-32 leading-loose mt-16 mb-4 mx-auto font-sans text-2xl lg:text-3xl font-normal uppercase",
   [Typography.Base]:
-    "space-y leading-loose max-w-prose mx-auto font-sans text-lg lg:text-xl font-normal",
+    "space-y leading-loose max-w-prose mx-auto mb-4 font-sans text-lg lg:text-xl font-normal",
   [Typography.Small]:
     "mx-auto max-w-prose font-sans text-sm lg:text-base font-normal",
 };
