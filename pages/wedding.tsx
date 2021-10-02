@@ -49,7 +49,7 @@ const TravelAndStay = () => (
       </Text>
 
       <Text>
-        <time dateTime="2021-10-09T21:30">9:30 pm</time>
+        <time dateTime="2021-10-09T21:00">9:00 pm</time>
         <br />
         Champagne & hot dogs
       </Text>
